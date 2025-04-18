@@ -21,25 +21,27 @@ const Navbar = () => {
 
   const navLinks = (
     <>
-      {["/", "/about", "/skills", "/projects"].map((path, index) => {
-        const names = ["Home", "About", "Skills", "Projects"];
-        return (
-          <li className="py-2" key={path}>
-            <NavLink
-              to={path}
-              onClick={() => setHamburger(false)}
-              className={({ isActive }) =>
-                `px-3 py-2 relative group ${
-                  isActive ? activeClassName : inactiveClassName
-                }`
-              }
-            >
-              {names[index]}
-              <span className="absolute left-0 right-0 bottom-0 h-0.5 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out w-11/12 mx-auto" />
-            </NavLink>
-          </li>
-        );
-      })}
+      {["/", "/about", "/skills", "/projects", "/contact"].map(
+        (path, index) => {
+          const names = ["Home", "About", "Skills", "Projects", "Contact"];
+          return (
+            <li className="py-2" key={path}>
+              <NavLink
+                to={path}
+                onClick={() => setHamburger(false)}
+                className={({ isActive }) =>
+                  `px-3 py-2 relative group ${
+                    isActive ? activeClassName : inactiveClassName
+                  }`
+                }
+              >
+                {names[index]}
+                <span className="absolute left-0 right-0 bottom-0 h-0.5 bg-primary transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out w-11/12 mx-auto" />
+              </NavLink>
+            </li>
+          );
+        }
+      )}
     </>
   );
 
@@ -129,7 +131,7 @@ const Navbar = () => {
                 Developer
               </motion.span>
             </motion.div>
-          </Link> 
+          </Link>
         </div>
 
         {/* Center: Navigation Links (Desktop) */}
@@ -178,12 +180,10 @@ const Navbar = () => {
             </svg>
           </label>
 
-          {/* Resume Button */}
           <a
-            href="./Ela-Resume.pdf"
-            target="_blank"
-            rel="noreferrer"
+            href="/Ela-Resume.pdf"
             download="Ela-Resume.pdf"
+            rel="noopener noreferrer"
           >
             <InteractiveHoverButton
               text="Resume"

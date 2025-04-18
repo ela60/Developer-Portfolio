@@ -1,4 +1,4 @@
-# Mekat
+# Ambia Ela
 
 This is a simple portfolio website built with React and Vite.
 
@@ -8,6 +8,7 @@ This is a simple portfolio website built with React and Vite.
 * Responsive design
 * Animations
 * Interactive hover effects
+* Emailjs
 
 ## Technologies used
 
@@ -16,6 +17,7 @@ This is a simple portfolio website built with React and Vite.
 * Tailwind CSS
 * Framer Motion
 * Lucide Icons
+
 
 ## How to run
 

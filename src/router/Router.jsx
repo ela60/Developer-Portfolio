@@ -5,6 +5,7 @@ import ErrorPage from "@/pages/ErrorPage";
 import About from "@/components/About";
 import ProjectShowcase from "@/components/ProjectShowcase";
 import Skills from "@/components/Skill";
+import ContactSection from "@/components/ContactSection";
 
 const Router = createBrowserRouter([
     {
@@ -28,7 +29,7 @@ const Router = createBrowserRouter([
             },
             {
                 path: "/contact",
-                element: <h1>Contact</h1>,
+                element: <ContactSection/>,
             },
         ]
         

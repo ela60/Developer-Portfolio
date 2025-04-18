@@ -19,10 +19,10 @@ const ProjectShowcase = () => {
   const projects = [
     {
       id: 1,
-      title: "Student Food Platform PlateMate",
+      title: " Food Platform & Food Sharing PlateMate",
       description:
-        "A full-stack web application enabling students to order food from local home-cooks with comprehensive features.",
-      image: "./platemates.png",
+        "A platform to share food with others in the community. Users can post available food items for sharing, browse listings, and connect with others to help reduce food waste.",
+      image: "https://i.ibb.co.com/Mx0kpVkd/food.png",
       tech: ["React", "Node.js", "Express", "Firebase", "MongoDB"],
       features: [
         "User authentication and authorization",
@@ -32,8 +32,8 @@ const ProjectShowcase = () => {
         "Secure Stripe payment processing",
         "Admin dashboard",
       ],
-      github: "https://github.com/samZero-0/University_Student_Food_Platform_Project",
-      live: "https://platemate-3c7a2.web.app/",
+      github: "https://github.com/ela60/Food-Sharing-Website-Client.git",
+      live: "https://food-sharing-fde2a.web.app/",
       gradient: {
         light: "from-emerald-400 via-green-400 to-lime-400",
         dark: "from-emerald-500 via-green-500 to-lime-500",
@@ -41,33 +41,30 @@ const ProjectShowcase = () => {
     },
     {
       id: 2,
-      title: "StudyCollab",
+      title: "TalkTrove",
       description:
-        "A comprehensive platform for students to submit, view, and track assignments with an intuitive user interface.",
-      image: "./studycollab.png",
+        "ForumApp is an interactive platform that allows users to share their thoughts, engage in discussions, vote on posts, and comment on topics of interest. Whether you’re passionate about a subject or looking to join the conversation, ForumApp provides a space for community interaction.",
+      image: "https://i.ibb.co.com/d4LmkqNV/DALL-E-2025-02-06-06-37-40-A-modern-social-media-dashboard-similar-to-Facebook-named-Talk-Trove-The.webp",
       tech: [
         "React",
         "FramerMotion",
-        "Three.js",
+        
         "Firebase",
         "MongoDB",
         "TailwindCSS",
-        "Shadcn",
         "Express",
         "Node.js",
         "JWT",
       ],
       features: [
-        "Assignment submission and marking",
-        "Submission history tracking",
-        "Comprehensive grading system",
-        "Student performance leaderboard",
-        "Advanced assignment filtering",
-        "Interactive 3D visualization",
+        "🚀 An interactive social platform with admin and user dashboards, inspired by Facebook's UI.",
+        
+        "TalkTrove is a feature-rich social networking dashboard that allows users to post, like, comment, and connect in an intuitive Facebook-style interface. Admins have a separate panel to manage users, content, and platform settings efficiently.",
+        
       ],
       github:
-        "https://github.com/Phanthom-Mekat/StudyCollab-Collaborative-Learning-Platform-11-client",
-      live: "https://studycolab.netlify.app/",
+        "https://github.com/ela60/Created-ForumHub-or-Facebook-Website.git",
+      live: "https://bistro-boss-2368b.web.app/",
       gradient: {
         light: "from-purple-400 via-blue-400 to-cyan-400",
         dark: "from-purple-500 via-blue-500 to-cyan-500",
@@ -75,21 +72,20 @@ const ProjectShowcase = () => {
     },
     {
       id: 3,
-      title: "Crowdcube: Crowd Funding Application",
+      title: "SilverScreen Hub",
       description:
-        "An innovative crowdfunding platform enabling users to create, manage, and support diverse projects and causes.",
-      image: "./crowdcube.png",
-      tech: ["React", "Express", "MongoDB", "Node.js", "Redux", "TailwindCSS", "Firebase"],
+        "A movie database and recommendation platform where users can explore movies, add them to their favorite list, and get recommendations based on their preferences.",
+      image: "https://i.ibb.co.com/5WNYr7nw/Screenshot-152.png",
+      tech: ["React", "Express", "MongoDB", "Node.js", "TailwindCSS", "Firebase"],
       features: [
         "Robust user authentication",
         "Full CRUD campaign management",
-        "Donation tracking system",
+        "Features include movie search, favorites list, movie details, and dynamic recommendations",
         "Detailed campaign insights",
-        "Personal campaign dashboard",
-        "Secure financial transactions",
+        "Integrated third-party APIs for up-to-date movie information and ratings",
       ],
-      github: "https://github.com/Phanthom-Mekat/Crowdcube-A-Crowd-Funding-Application-10-client",
-      live: "https://crowdcubes.netlify.app/",
+      github: "https://github.com/ela60/Movie-Portal-Client.git",
+      live: "https://assignment-10-1d469.web.app/",
       gradient: {
         light: "from-orange-400 via-red-400 to-pink-400",
         dark: "from-orange-500 via-red-500 to-pink-500",

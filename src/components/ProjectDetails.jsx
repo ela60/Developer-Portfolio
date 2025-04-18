@@ -74,8 +74,8 @@ const ProjectDetails = ({ project, onClose }) => {
               <Calendar className="mr-3 text-green-500" /> Project Timeline
             </h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-              <strong>Started:</strong> January 2023 <br />
-              <strong>Completed:</strong> March 2023
+              <strong>Started:</strong> March 2024 <br />
+              <strong>Completed:</strong> December 2024
             </p>
           </div>
         </div>
@@ -87,8 +87,8 @@ const ProjectDetails = ({ project, onClose }) => {
           </h3>
           <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
             <p className="text-gray-700 dark:text-gray-300">
-              <strong>Lead Developer:</strong> Jahidul Hossain Mekat <br />
-              <strong>UI/UX Designer:</strong> Jahidul Hossain 
+              <strong>Lead Developer:</strong> Ambia Khatun Ela <br />
+              <strong>UI/UX Designer:</strong> Ambia Khatun Ela 
             </p>
           </div>
         </div>

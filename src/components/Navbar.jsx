@@ -5,6 +5,7 @@ import InteractiveHoverButton from "./ui/interactive-hover-button";
 import { ThemeContext } from "@/provider/ThemeProvider";
 import { Sling as Hamburger } from "hamburger-react";
 import { motion } from "framer-motion";
+import cv from "../assets/Ela-Resume .pdf";
 
 const Navbar = () => {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
@@ -78,7 +79,7 @@ const Navbar = () => {
             />
 
             <motion.div
-              className="flex items-center space-x-1 font-bold text-2xl"
+              className="flex hidden md:block items-center space-x-1 font-bold text-2xl "
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 1 }}
@@ -181,8 +182,8 @@ const Navbar = () => {
           </label>
 
           <a
-            href="/Ela-Resume.pdf"
-            download="Ela-Resume.pdf"
+            href={cv}
+            download
             rel="noopener noreferrer"
           >
             <InteractiveHoverButton

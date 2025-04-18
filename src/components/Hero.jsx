@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
+import cv from "../assets/Ela-Resume .pdf";
 import {
   
   GithubIcon,
@@ -193,10 +194,8 @@ export default function Hero() {
                 </Button>
               </a>
               <a
-                href="./Ela-Resume.pdf"
-                target="_blank"
-                rel="noreferrer"
-                download="Ela-Resume.pdf"
+                 href={cv}
+                 download
                 className=""
               >
                 <InteractiveHoverButton

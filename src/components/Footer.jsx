@@ -46,6 +46,8 @@ const Footer = () => {
     },
   ];
 
+  // Functional component to scroll
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   };

@@ -87,7 +87,7 @@ const Footer = () => {
                     key={link}
                     className="hover:text-purple-600 transition-colors"
                   >
-                    <a href={`#${link.toLowerCase()}`}>{link}</a>
+                    <a href={`${link.toLowerCase()}`}>{link}</a>
                   </li>
                 )
               )}

@@ -46,8 +46,7 @@ const Footer = () => {
     },
   ];
 
-  // Functional component to scroll
-  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, facere!
+  
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });

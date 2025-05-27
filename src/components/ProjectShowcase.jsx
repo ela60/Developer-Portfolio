@@ -18,7 +18,63 @@ const ProjectShowcase = () => {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const projects = [
     {
-      id: 1,
+  id: 1,
+  title: "AI-powered Course Creation and Learning Platform - EduGenie",
+  description:
+    "EduGenie is a full-stack educational platform built with Next.js that leverages AI to generate personalized courses, blogs, and chatbot interactions. It features a sleek, responsive UI and role-based dashboards for educators and learners.",
+  image: "https://i.ibb.co/0yJQ4GWd/Screenshot-183.png",
+  tech: ["Next.js", "Node.js", "Express", "Firebase", "MongoDB"],
+  features: [
+    " Course Creation with Gemini AI API",
+    " Display All Generated Courses (Frontend + Backend Integration)",
+    " Blog Page with AI-Generated Content",
+    " AI Chatbot & User Profile Management",
+    " Role-Based Dashboard (Educator & Student)",
+    " Parallax & Animated Course Carousel with Filters",
+    " Real Testimonials with Stats and Orbit Animation",
+    " Email Contact Form with EmailJS Integration"
+  ],
+  github: "https://github.com/ela60/EduGenie-Educational-Platform.git",
+  live: "https://genies-two.vercel.app/",
+  gradient: {
+    light: "from-emerald-400 via-green-400 to-lime-400",
+    dark: "from-emerald-500 via-green-500 to-lime-500",
+  },
+},
+
+  {
+  id: 2,
+  title: "AI-Driven Event Ticket Booking System",
+  description:
+    "A smart, AI-powered event ticket booking platform that leverages intelligent recommendations, dynamic pricing, and real-time seat availability to provide a seamless and secure user experience.",
+  image: "https://i.ibb.co/8DQ53K86/Screenshot-182.png",
+  tech: [
+    "TypeScript", "Next.js", "Tailwind CSS", "ShadCN", "React Query",
+    "React Hook Form", "NextAuth.js", "PostgreSQL", "Prisma",
+    "Gemini API", "Stripe", "SendGrid", "PDFKit", "QR Code", "Google Maps API"
+  ],
+  features: [
+    " AI-Based Event Recommendations",
+    " Dynamic Ticket Pricing Based on Demand",
+    " Secure Booking with Stripe + PDF/QR Tickets",
+    " Admin & Organizer Dashboards",
+    " AI Chatbot for 24/7 Support",
+    " Fraud & Duplicate Booking Detection",
+    " Fully Responsive & Accessible UI",
+    " Wishlist, Reviews, Notifications, Referral System",
+    " Dark Mode Toggle & Multi-language (Optional)"
+  ],
+  github: "https://github.com/ela60/AI-Driven-Event-Ticket-Booking-System.git",
+  live: "https://bookhub-test.vercel.app/",
+  gradient: {
+    light: "from-emerald-400 via-green-400 to-lime-400",
+    dark: "from-emerald-500 via-green-500 to-lime-500",
+  },
+},
+
+
+    {
+      id: 3,
       title: " Food Platform & Food Sharing PlateMate",
       description:
         "A platform to share food with others in the community. Users can post available food items for sharing, browse listings, and connect with others to help reduce food waste.",
@@ -40,7 +96,7 @@ const ProjectShowcase = () => {
       },
     },
     {
-      id: 2,
+      id: 4,
       title: "TalkTrove",
       description:
         "ForumApp is an interactive platform that allows users to share their thoughts, engage in discussions, vote on posts, and comment on topics of interest. Whether you’re passionate about a subject or looking to join the conversation, ForumApp provides a space for community interaction.",
@@ -71,7 +127,7 @@ const ProjectShowcase = () => {
       },
     },
     {
-      id: 3,
+      id: 5,
       title: "SilverScreen Hub",
       description:
         "A movie database and recommendation platform where users can explore movies, add them to their favorite list, and get recommendations based on their preferences.",
